@@ -60,4 +60,4 @@ if __name__ == "__main__":
             prices[stock] = price   #{key: StockName, Value: price} 
             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
 
-        print("Ratio %s" % getRatio(prices['ABC'], prices['DEF']))
+        print("Ratio %s" % getRatio(prices['ABC'], prices['DEF'])) # Printing ratio of the price of two historically co-related Stocks.
